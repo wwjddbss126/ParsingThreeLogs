@@ -1,0 +1,19 @@
+Description: MRU (앱 실행 이력)
+Author: JeongYoon Kang (matiii)
+Version: 1.0
+Id: db67e32d-fdf9-46da-aa9d-9463f3b24477
+RecreateDirectories: true
+Targets:
+      -
+         Name: MRU - Search
+         Category: ThreeLogs
+         Path: C:\Users\%user%\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\DeviceSearchCache
+         FileMask: 'AppCache*.txt'
+         Comment: "MRU: 앱 실행 이력(앱 이름, 경로, 최근 실행 시각, 실행 횟수 등)"
+
+      -
+         Name: MRU - Cortana
+         Category: ThreeLogs
+         Path: C:\Users\%user%\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\DeviceSearchCache
+         FileMask: 'AppCache*.txt'
+         Comment: "MRU: 앱 실행 이력(앱 이름, 경로, 최근 실행 시각, 실행 횟수 등)"

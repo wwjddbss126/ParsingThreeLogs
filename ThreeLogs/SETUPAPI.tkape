@@ -1,0 +1,12 @@
+Description: Setupapi (장치 및 드라이버 설치 로그)
+Author: JeongYoon Kang (matiii)
+Version: 1.0
+Id: 89a24f3a-12a8-4d0f-b7a6-6211b861a0d0
+RecreateDirectories: true
+Targets:
+      -
+         Name: Setupapi
+         Category: ThreeLogs
+         Path: C:\Windows\INF\
+         FileMask: 'setupapi.dev.*'
+         Comment: "Setupapi: 장치 및 드라이버 설치 로그"

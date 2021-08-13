@@ -1,0 +1,12 @@
+Description: INSTALL (프로그램 설치 로그)
+Author: JeongYoon Kang (matiii)
+Version: 1.0
+Id: 59ea9a72-cfcd-4a98-96f0-6af274fa0a43
+RecreateDirectories: true
+Targets:
+      -
+         Name: INSTALL
+         Category: ThreeLogs
+         Path: C:\Windows\appcompat\Programs\Install\
+         FileMask: 'INSTALL_*.txt'
+         Comment: "INSTALL: 프로그램 설치 로그"
