@@ -1,0 +1,11 @@
+2021-08-13 14:18:02.6496 | I | KAPE version 1.0.0.3 Author: Eric Zimmerman (kape@kroll.com)
+2021-08-13 14:18:02.6638 | I | KAPE directory: C:\Users\82107\OneDrive - 서울여자대학교\Tools\KAPE
+2021-08-13 14:18:02.6638 | I | Command line: --tsource C: --tdest C:\Users\82107\Desktop\KapeOutput --tflush --target INSTALL,MRU,SETUPAPI --gui 
+2021-08-13 14:18:02.6638 | I | System info: Machine name: MATIIIBOOK, 64-bit: True, User: 82107 OS: Windows10 (10.0.19042)
+2021-08-13 14:18:03.1188 | I | Using Target operations
+2021-08-13 14:18:03.1188 | W | 	Flushing target destination directory 'C:\Users\82107\Desktop\KapeOutput'
+2021-08-13 14:18:03.1283 | W | 	Creating target destination directory 'C:\Users\82107\Desktop\KapeOutput'
+2021-08-13 14:18:03.1283 | I | Found 3 targets. Expanding targets to file list...
+2021-08-13 14:18:03.3037 | I | Found 42 files in 0.064 seconds. Beginning copy...
+2021-08-13 14:18:04.3350 | I | Copied 42 out of 42 files in 1.2186 seconds. See '*_CopyLog.csv' in 'C:\Users\82107\Desktop\KapeOutput' for copy details
+2021-08-13 14:18:04.3456 | F | Total execution time: 1.2290 seconds
